@@ -1,0 +1,3 @@
+CREATE DATABASE bd_ETEX;
+CREATE TABLE `bd_ETEX`.`table_usuarios` ( `id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `nascimento` DATE NOT NULL , `serie` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;
+CREATE TABLE `bd_ETEX`.`table_disciplinas` ( `id` INT NOT NULL , `nome` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;

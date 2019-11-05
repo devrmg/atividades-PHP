@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Atividade</title>
+		<meta charset="UTF-8" lang="PT-BR">
+	<!-- CSS -->
+		<style>	
+		form{
+			margin: auto;
+			width: 600px;
+			height: 400px;
+			padding: 20px 0px 25px 60px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),0 2px 4px 0 rgba(0,0,0,0.08);
+			border-radius: 10px
+			
+			
+		}
+		
+		input{
+			margin: 10px;
+		}
+		
+		button{
+			width: 150px;
+			margin-top: 10px;
+			margin-left: 200px;
+			display: block;
+		}
+		
+		
+		footer{
+				width:300px;
+				padding-left: 10px;
+				border: 2px dashed #dddddd;
+				background: #fff;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<section>	
+			<form name="form_func" action="#" method="GET">
+				
+				Número de Registro <input type="tex" name="nRegisto" size="4" placeholder=" 0000"><br>
+				Nome: <input type="text" name="nome" placeholder=" Digite seu nome" size="55">
+				<br>Sobrenome: <input type="text" name="sobreNome" placeholder=" Digite seu sobrenome" size="50"><br>
+				Data de nascimento: <input type="date" name="nasc">
+				<label>Sexo</label>
+					M: <input type="radio" name="sexo" value="M">
+					F: <input type="radio" name="sexo" value="F"></br>
+				Cargo: <select name="cargo">
+					<option value="1">Cargo 1</option>
+					<option value="2">Cargo 2</option>
+					<option value="3">Cargo 3</option>
+					<option value="4">Cargo 4</option>
+				<select>
+				Setor: <input type="text" name="setor"></br>
+				Salário: <input type="number" name="salario" placeholder="R$"></br>
+				Admissão: <input type="date" name="admissao">
+				Demissão: <input type="date" name="demissao"><br>
+				Endereço: <input type="enderess" name="endereco" placeholder="Rua, N°, Bairro, Cidade">
+				Telefone: <input type="phone" name="fone" placeholder="(00) 0000-0000"><br>
+				Email: <input type="text" name="email" placeholder="xxxx@xxxx.xx" size="23"><br>
+				<button type="submit">Cadastrar</button>
+			</form>
+			
+		</section>
+		
+		<footer>
+			<h3>Escola Técnica Miguel Batista</h3>
+			<h3>Aluno: Kelvyn José da Silva Pereira</h3>		
+			<h3>Curso: Desenvolvimeto de Sistemas</h3>		
+		</footer>
+		
+	</body>
+</html>

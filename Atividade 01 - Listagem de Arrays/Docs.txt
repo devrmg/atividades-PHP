@@ -1,0 +1,2 @@
+1 - rsort() é uma função responsável por ordenar itens de um array em ordem decrescente; 
+2 - link da imagem: https://drive.google.com/file/d/1DUBIgMdnxbJLO2rfJ_oRCUTRj3foJEpp/view
