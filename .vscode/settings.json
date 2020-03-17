@@ -1,6 +1,0 @@
-{
-    "phpcs.enable": true,
-    "phpcs.composerJsonPath": "composer.json",
-    "phpcs.standard": "null",
-    "editor.renderWhitespace": "null"
-}
